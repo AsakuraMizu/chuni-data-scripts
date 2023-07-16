@@ -1,0 +1,20 @@
+{
+  "name": "chuni-data-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "main": "zx ./src/main.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.26.0",
+    "@supercharge/promise-pool": "^3.0.0",
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "escape-goat": "^4.0.0",
+    "zx": "^7.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "tsx": "^3.12.7"
+  }
+}
